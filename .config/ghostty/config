@@ -19,15 +19,19 @@
 # ==========================
 # # The config file consists of simple key-value pairs,
 # # separated by equals signs.
-font-family = 0xProto
-font-size = 14
-
-cursor-invert-fg-bg = true
-cursor-style = block
-
 keybind = ctrl+insert=new_tab
 keybind = ctrl+delete=close_surface
 keybind = page_up=previous_tab
 keybind = page_down=next_tab
 
+font-family = 0xProto
+font-size = 13
+
+cursor-invert-fg-bg = true
+cursor-style = block
 theme = tokyonight_night
+
+maximize = true
+
+gtk-tabs-location = bottom
+window-theme = ghostty
