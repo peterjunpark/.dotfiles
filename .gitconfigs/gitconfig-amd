@@ -1,0 +1,5 @@
+[init]
+	defaultBranch = develop
+[user]
+	name = Peter Park
+	email = peter.park@amd.com

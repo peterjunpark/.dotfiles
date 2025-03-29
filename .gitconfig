@@ -1,0 +1,19 @@
+[init]
+	defaultBranch = main
+[user]
+	name = Peter Jun Park
+	email = git@peterjunpark.com
+[alias]
+	a = add
+	A = add -A
+	c = commit -m
+	cp = cherry-pick
+	D = reset
+	p = pull
+	P = push
+	P = push --force-with-lease
+[core]
+	editor = nvim
+
+[includeIf "gitdir:~/amd/"]
+	path = ~/.gitconfigs/gitconfig-amd
